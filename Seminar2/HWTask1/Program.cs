@@ -5,7 +5,7 @@
 Console.Write("Введите трехзначное число: ");
 int number = int.Parse(Console.ReadLine());
 
-if (number / 100 == 0 || number / 100 > 9)
+if (number < 100 || number > 999)
 {
   Console.Write("Число не трехзначное");  
 }

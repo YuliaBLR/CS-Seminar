@@ -22,4 +22,3 @@ else
         Console.Write($"max = {number2}");
         }
 }
-
